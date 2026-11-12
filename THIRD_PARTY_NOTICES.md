@@ -11,6 +11,8 @@
 | Edge TTS | [7.3.1](https://github.com/rany2/edge-tts) | LGPL-3.0；语音工具的无密钥回退；原始 wheel 随 runtime/wheels 保留 |
 | HEV SOCKS5 Tunnel | [commit 786edc86](https://github.com/heiher/hev-socks5-tunnel/tree/786edc86f92e17e91d180f43f1f70cd323f6a243) | MIT；完整 vendored 源码和子模块许可证在 `third_party/hev-socks5-tunnel` |
 | React / Vite / TypeScript | 锁文件版本 | MIT |
+| jsrsasign | 11.1.5 | MIT；原 IP 的 HTTP 页面使用 RSA 发布清单验签回退 |
+| AndroidX WebKit / Core | 1.12.1 / 1.15.0 | Apache-2.0；限制原生消息调用来源及系统安装文件共享 |
 | Electron | 45.3.0 | MIT；分发组件附带各自声明 |
 | Lucide | [lucide.dev](https://lucide.dev/license) | ISC；统一界面图标 |
 | IBM Plex Sans | [IBM Plex](https://github.com/IBM/plex) | SIL Open Font License 1.1；自托管字体 |
@@ -25,3 +27,5 @@
 品牌标记 SVG 来自公共模型品牌图标，标识权益属于对应品牌。用户提供的 Nous 指南针、AI 角色及表情素材按项目要求使用，素材包未附作者和许可证信息。没有使用外部图库照片或视频。
 
 本次交互设计参考 [DawnBreaker](https://github.com/liveldy/DawnBreaker) 的折跃门与拾光者公开行为和文档，未复制其 AGPL 程序源码。本机网络调用使用独立实现与 Mihomo 官方控制接口。
+
+全能下载器作为独立插件使用 [CYQawa/YunX](https://github.com/CYQawa/YunX) Android v1.3.1 与 [tidain/YunX-Desktop](https://github.com/tidain/YunX-Desktop) Windows v1.3.3，均为 AGPL-3.0。插件完整源码、原版安装程序与对应上游源码归档发布在 [Nous-Plugin-YunX](https://github.com/liveldy/Nous-Plugin-YunX)；未链接或复制到 Nous 本体中。
