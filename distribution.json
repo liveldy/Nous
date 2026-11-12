@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "hostApi": "1.0",
+  "epoch": 1,
+  "version": "1.0.0",
+  "repository": "liveldy/Nous",
+  "portal": "https://liveldy.github.io/Nous/",
+  "feed": "https://raw.githubusercontent.com/liveldy/Nous/main/releases.json",
+  "plugins": "https://raw.githubusercontent.com/liveldy/Nous/main/plugins.json",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAv0XTqoxqVeP/ZVOtfiSR\nb2aXpsuy/WUrS5sK+WVDeTpYJxBX/JWr7hGnhf7PQZ+H41c94FnWUKimM0IQtJw9\nTVfiC3EirmEGCkG0VNDJIruutd5fsgnum3Q3TGyxYBAYdfhy7vGbJUdkaMESUEVH\nyC64nrVvjS8niPr8baK/XJNslCO02FxbNX6926ozi1qdou0tGOGQc9FfwxvHsU9F\nxyuUiXU+F/Ass9tMO2hlR43eQ1wRQrxMcTbgw8XXvxJGwwFxdAx7+DNZXR+usEju\nJywm+wxfgdwocNEMwjZwmuWG0q1PGnrqjtpgu3GEMaW3ZNngSBs7C28JaQK1GgVt\nYKnQSkz/uNu9NWd0Ajfpa3PKHZFtywVt3lqOrA0ZUnPMbfv7DlRqVpApbCdLgG+F\nUuEAx0kZ0DSHSGN7mMil8209qYQ7JVMfgEA8CVoxE/YRziTUFJhYL90lDdiDxpbE\nGYA2yzqPnPxw+xcl6xYjArhvzf1gqSzVVAQgawekns3fAgMBAAE=\n-----END PUBLIC KEY-----\n"
+}
