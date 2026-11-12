@@ -28,4 +28,4 @@
 
 本次交互设计参考 [DawnBreaker](https://github.com/liveldy/DawnBreaker) 的折跃门与拾光者公开行为和文档，未复制其 AGPL 程序源码。本机网络调用使用独立实现与 Mihomo 官方控制接口。
 
-全能下载器作为独立插件使用 [CYQawa/YunX](https://github.com/CYQawa/YunX) Android v1.3.1 与 [tidain/YunX-Desktop](https://github.com/tidain/YunX-Desktop) Windows v1.3.3，均为 AGPL-3.0。插件完整源码、原版安装程序与对应上游源码归档发布在 [Nous-Plugin-YunX](https://github.com/liveldy/Nous-Plugin-YunX)；未链接或复制到 Nous 本体中。
+全能下载器作为独立插件使用 [CYQawa/YunX](https://github.com/CYQawa/YunX) Android v1.3.1 与 [tidain/YunX-Desktop](https://github.com/tidain/YunX-Desktop) Windows v1.3.3，均为 AGPL-3.0。插件移植业务层，运行模块 ZIP、完整修改源码与对应上游源码归档发布在 [Nous-Plugin-YunX](https://github.com/liveldy/Nous-Plugin-YunX)；下载器业务未写入 Nous 本体，不发布原版安装程序。
