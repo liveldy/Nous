@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "hostApi": "1.1",
+  "hostApi": "1.2",
   "epoch": 1,
-  "version": "1.0.4",
+  "version": "1.1.0",
   "repository": "liveldy/Nous",
   "portal": "https://liveldy.github.io/Nous/",
   "feed": "https://raw.githubusercontent.com/liveldy/Nous/main/releases.json",
