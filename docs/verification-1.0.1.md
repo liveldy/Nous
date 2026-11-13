@@ -1,9 +1,5 @@
-Nous 1.0.1 · 通用插件接口兼容补丁
+# Nous 1.0.1
 
-新增通用平台运行模块加载、插件二级菜单与表单交互支持。全能下载器业务通过其独立仓库、模块和版本发布；四个核心模块没有业务改动。
+- 完善宿主插件接口：平台运行模块、二级菜单和表单交互；按平台检查与授权。
 
-Windows 仅提供安装版；Android 应用名称 Nous。插件和客户端产物均保存在 GitHub，不在服务端保存。
-
-验证：12项自动检查、真实桌面客户端中的模块安装/权限/不透明 iframe/导航/设置/停用/重启/卸载；实际文件下载与恢复校验；Android 构建和 lint。Android 实机暂未验证。
-
-插件平台模块与完整对应源码见 [独立插件发行](https://github.com/liveldy/Nous-Plugin-YunX/releases/tag/v1.1.0)。
+[本体发行文件](https://github.com/liveldy/Nous/releases/tag/v1.0.1)
