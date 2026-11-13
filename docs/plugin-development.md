@@ -151,3 +151,10 @@ Windows 使用独立内存浏览会话，禁止 Node、宿主桥、下载与越�
 `runtime.webLogin` 可声明 `userAgent`，以及 `validation: {url, path, equals, nonEmpty?}`。校验 URL 必须是已声明域内 HTTPS；只执行 GET，最多64KB、8秒超时。JSON 的 path 值与 equals 相等，且可选 nonEmpty 路径为非空字符串时，才返回凭证并关闭窗口。临时Cookie已出现但校验未通过时保留窗口，等待完成官方登录；Cookie稳定后请求，失败至多每5秒重试。插件负责再次校验与保存，宿主不包含任何网盘地址或业务字段。
 
 Windows 从专用会话收集声明域 Cookie，包含带路径限制和HTTP-only的字段；Android 从插件声明的多个具体URL收集并在结束时过期对应域/路径Cookie。只采集当前官方登录会话，不读取其他应用私有数据。
+
+
+### 原生客户端版本来源
+
+宿主在创建插件 iframe 前，原生端读取本机 preferences.appVersion，网页读取发布配置；不得用在线页面的发布版本代替本机安装版本。requiresHost 在安装与打开插件前验证。异步结果绑定原始 iframe 和 nonce，切换插件后不向新页面投递旧结果。
+
+平台业务适配应对实际平台类和方法进行测试。可共享消息协议和 UI，但不能假设 Android 与 Windows 的上游业务类、构造参数、协程方法或下载参数顺序相同。
