@@ -3,9 +3,10 @@
 Nous官方门户、公开插件SDK与客户端发布仓库，不包含主程序源码。
 
 - [官方门户](https://liveldy.github.io/Nous/) · [原IP网页版](http://110.42.63.153:7783)
-- [Nous1.2.0安装版本](https://github.com/liveldy/Nous/releases/tag/v1.2.0)
+- [Nous1.3.0安装版本](https://github.com/liveldy/Nous/releases/tag/v1.3.0)
 - [插件开发文档](docs/plugin-development.md) · [方法参考](docs/plugin-api-reference.md)
 - [SDK1.3.0](https://github.com/liveldy/Nous/releases/download/v1.2.0/Nous-Plugin-SDK-1.3.0.zip) · [独立示例](sdk/examples)
+- [技能](docs/skills.md) · [API监视与Devin](docs/api-monitoring.md)
 - [管理使用说明](docs/administration.md) · [版本与分发](docs/version-management.md)
 - [破晓下载器独立仓库与版本记录](https://github.com/liveldy/Nous-Plugin-YunX)
 

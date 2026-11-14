@@ -15,6 +15,8 @@
 | jsrsasign | 11.1.5 | MIT；原 IP 的 HTTP 页面使用 RSA 发布清单验签回退 |
 | AndroidX WebKit / Core | 1.12.1 / 1.15.0 | Apache-2.0；限制原生消息调用来源及系统安装文件共享 |
 | Electron | 45.3.0 | MIT；分发组件附带各自声明 |
+| flag-icons | [lipis/flag-icons](https://github.com/lipis/flag-icons) | MIT；本地国家旗帜SVG，许可证随网页素材保留 |
+| go-yaml v3 | [v3.0.1](https://github.com/go-yaml/yaml/tree/v3.0.1) | MIT与Apache-2.0，按文件适用；服务端解析SKILL.md前置元信息 |
 | Lucide | [lucide.dev](https://lucide.dev/license) | ISC；统一界面图标 |
 | IBM Plex Sans | [IBM Plex](https://github.com/IBM/plex) | SIL Open Font License 1.1；自托管字体 |
 | react-markdown / remark / rehype | 锁文件版本 | MIT；Markdown 渲染链 |
